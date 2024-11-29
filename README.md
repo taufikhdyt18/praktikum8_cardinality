@@ -15,66 +15,78 @@
 
 ![image](ss8/customer.png)
 
-- Tujuan :
+Tujuan :
 
-Untuk menyimpan dan menampilkan data pelanggan, seperti nama dan alamat.
+- Untuk menyimpan dan menampilkan data pelanggan, seperti nama dan alamat.
 
-- Atribut :
+Atribut :
 
-name: Menyimpan nama pelanggan.
+- name: Menyimpan nama pelanggan.
 
-address: Menyimpan alamat pelanggan.
+- address: Menyimpan alamat pelanggan.
 
-- Metode:
+Metode:
 
-getName() dan getAddress() digunakan untuk mengambil nilai dari atribut name dan address.
+- getName() dan getAddress() digunakan untuk mengambil nilai dari atribut name dan address.
 
-toString(): Mengembalikan string yang mewakili informasi pelanggan dalam format yang diinginkan (Nama dan Alamat).
+- toString(): Mengembalikan string yang mewakili informasi pelanggan dalam format yang diinginkan (Nama dan Alamat).
 ### 2. Item Class
 
 ![image](ss8/item.png)
-- Tujuan:
 
-Menyimpan dan menampilkan data item yang dipesan oleh pelanggan.
+Tujuan:
 
-- Atribut:
+- Menyimpan dan menampilkan data item yang dipesan oleh pelanggan.
 
-name: Menyimpan nama item (misalnya, "Laptop").
+Atribut:
 
-- Metode:
+- name: Menyimpan nama item (misalnya, "Laptop").
 
-getName(): Mengambil nama item.
+Metode:
 
-toString(): Mengembalikan string yang mewakili item, yaitu nama item yang dipesan.
+- getName(): Mengambil nama item.
+
+- toString(): Mengembalikan string yang mewakili item, yaitu nama item yang dipesan.
 
 ### 3. Order Class
 
 ![image](ss8/order.png)
 
-- Tujuan:
+Tujuan:
 
-Menyimpan informasi terkait pesanan yang dilakukan oleh pelanggan.
+- Menyimpan informasi terkait pesanan yang dilakukan oleh pelanggan.
 
-- Atribut:
-
-item: Merujuk ke objek Item yang dipesan.
-
-orderDate: Menyimpan tanggal pesanan dilakukan.
-
-status: Menyimpan status pesanan (misalnya, "Online").
-
-- Metode:
-
-getItem(), getOrderDate(), dan getStatus(): Mengambil informasi item, tanggal pesanan, dan status pesanan.
-
-toString(): Mengembalikan string yang mewakili informasi pesanan, termasuk item yang dipesan, tanggal pesanan, dan status pesanan.
-4. Payment (Abstract Class)
-Tujuan: Sebagai kelas abstrak yang mendefinisikan pembayaran umum. Kelas ini memiliki atribut amount yang digunakan oleh kelas turunannya (Cash, Check, Credit).
 Atribut:
-amount: Menyimpan jumlah uang yang dibayarkan.
+
+- item: Merujuk ke objek Item yang dipesan.
+
+- orderDate: Menyimpan tanggal pesanan dilakukan.
+
+- status: Menyimpan status pesanan (misalnya, "Online").
+
 Metode:
-getAmount(): Mengambil jumlah pembayaran.
-toString(): Mengembalikan representasi umum dari pembayaran.
+
+- getItem(), getOrderDate(), dan getStatus(): Mengambil informasi item, tanggal pesanan, dan status pesanan.
+
+- toString(): Mengembalikan string yang mewakili informasi pesanan, termasuk item yang dipesan, tanggal pesanan, dan status pesanan.
+
+### 4. Payment (Abstract Class)
+
+![image](ss8/payment.png)
+
+Tujuan:
+
+- Sebagai kelas abstrak yang mendefinisikan pembayaran umum. Kelas ini memiliki atribut amount yang digunakan oleh kelas turunannya (Cash, Check, Credit).
+
+Atribut:
+
+- amount: Menyimpan jumlah uang yang dibayarkan.
+
+Metode:
+
+- getAmount(): Mengambil jumlah pembayaran.
+
+- toString(): Mengembalikan representasi umum dari pembayaran.
 5. Cash Class
 Tujuan: Merupakan turunan dari kelas Payment yang mengimplementasikan pembayaran dengan uang tunai.
 Metode:
