@@ -87,29 +87,65 @@ Metode:
 - getAmount(): Mengambil jumlah pembayaran.
 
 - toString(): Mengembalikan representasi umum dari pembayaran.
-5. Cash Class
-Tujuan: Merupakan turunan dari kelas Payment yang mengimplementasikan pembayaran dengan uang tunai.
+
+### 5. Cash Class
+
+![image](ss8/cash.png)
+
+Tujuan:
+
+- Merupakan turunan dari kelas Payment yang mengimplementasikan pembayaran dengan uang tunai.
+
 Metode:
-toString(): Mengembalikan format pembayaran tunai dengan nilai jumlah uang yang dibayarkan.
-6. Check Class
-Tujuan: Merupakan turunan dari kelas Payment yang mengimplementasikan pembayaran dengan cek.
+
+- toString(): Mengembalikan format pembayaran tunai dengan nilai jumlah uang yang dibayarkan.
+
+### 6. Check Class
+
+
+Tujuan:
+
+- Merupakan turunan dari kelas Payment yang mengimplementasikan pembayaran dengan cek.
+
 Atribut:
-bankId: Menyimpan informasi Bank ID terkait dengan pembayaran cek.
+
+- bankId: Menyimpan informasi Bank ID terkait dengan pembayaran cek.
+
 Metode:
-toString(): Mengembalikan format pembayaran cek, dengan mencetak BankID terkait.
-7. Credit Class
-Tujuan: Merupakan turunan dari kelas Payment yang mengimplementasikan pembayaran dengan kartu kredit.
+
+- toString(): Mengembalikan format pembayaran cek, dengan mencetak BankID terkait.
+
+### 7. Credit Class
+
+
+Tujuan: 
+
+- Merupakan turunan dari kelas Payment yang mengimplementasikan pembayaran dengan kartu kredit.
+
 Atribut:
-expirationDate: Menyimpan tanggal kedaluwarsa kartu kredit.
+
+- expirationDate: Menyimpan tanggal kedaluwarsa kartu kredit.
+
 Metode:
-toString(): Mengembalikan format pembayaran dengan kartu kredit yang mencetak tanggal kedaluwarsa.
-Main Class
-Tujuan: Merupakan kelas utama yang digunakan untuk menjalankan aplikasi, membuat objek-objek yang diperlukan, dan menampilkan output sesuai dengan format yang diminta.
+
+- toString(): Mengembalikan format pembayaran dengan kartu kredit yang mencetak tanggal kedaluwarsa.
+
+### 8. Main Class
+Tujuan: 
+
+- Merupakan kelas utama yang digunakan untuk menjalankan aplikasi, membuat objek-objek yang diperlukan, dan menampilkan output sesuai dengan format yang diminta.
+
 Proses:
-Membuat objek Customer untuk pelanggan bernama "Taufik" dengan alamat "Sukatani - Cikarang".
-Membuat objek Item untuk item yang dipesan, dalam hal ini adalah "Laptop".
-Membuat objek Order yang mengaitkan item dengan tanggal pesanan dan status "Online".
-Membuat tiga objek pembayaran (Cash, Check, dan Credit) untuk mewakili pembayaran yang dilakukan oleh pelanggan.
-Menampilkan informasi yang diinginkan sesuai format yang diminta, seperti nama pelanggan, item yang dipesan, tanggal pesanan, status pesanan, dan detail pembayaran.
+
+- Membuat objek Customer untuk pelanggan bernama "Taufik" dengan alamat "Sukatani - Cikarang".
+
+- Membuat objek Item untuk item yang dipesan, dalam hal ini adalah "Laptop".
+
+- Membuat objek Order yang mengaitkan item dengan tanggal pesanan dan status "Online".
+
+- Membuat tiga objek pembayaran (Cash, Check, dan Credit) untuk mewakili pembayaran yang dilakukan oleh pelanggan.
+
+- Menampilkan informasi yang diinginkan sesuai format yang diminta, seperti nama pelanggan, item yang dipesan, tanggal pesanan, status pesanan, dan detail pembayaran.
 Output
-Output yang dihasilkan oleh aplikasi menunjukkan informasi pelanggan, pesanan, dan pembayaran dalam format yang jelas dan sesuai dengan yang diminta:
+
+- Output yang dihasilkan oleh aplikasi menunjukkan informasi pelanggan, pesanan, dan pembayaran dalam format yang jelas dan sesuai dengan yang diminta:
