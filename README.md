@@ -173,3 +173,6 @@ Credit: expDate 2024-08-18
 
 ### Kesimpulan
 - Struktur kelas yang digunakan di sini adalah contoh dasar penggunaan hubungan objek dan pewarisan dalam Java. Setiap kelas memiliki tanggung jawab tertentu, dan kelas turunan (Cash, Check, Credit) mengimplementasikan spesifik pembayaran yang diwarisi dari kelas Payment. Dengan cara ini, Anda dapat menangani berbagai jenis transaksi pembayaran dan mendesain aplikasi dengan lebih modular dan terstruktur.
+
+
+# Selesai
