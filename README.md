@@ -5,6 +5,10 @@
 | Nama  | Taufik Hidayat
 | Kelas | TI.23.A6
 
+## Latihan
+
+![image](ss8/latihan.png)
+
 ## Penjelasan
 
 ### 1. Customer Class
@@ -44,6 +48,8 @@ getName(): Mengambil nama item.
 toString(): Mengembalikan string yang mewakili item, yaitu nama item yang dipesan.
 
 ### 3. Order Class
+
+![image](ss8/order.png)
 
 - Tujuan:
 
