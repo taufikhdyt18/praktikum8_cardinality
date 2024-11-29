@@ -102,6 +102,7 @@ Metode:
 
 ### 6. Check Class
 
+![image](ss8/check.png)
 
 Tujuan:
 
@@ -117,6 +118,7 @@ Metode:
 
 ### 7. Credit Class
 
+![image](ss8/credit.png)
 
 Tujuan: 
 
@@ -131,6 +133,9 @@ Metode:
 - toString(): Mengembalikan format pembayaran dengan kartu kredit yang mencetak tanggal kedaluwarsa.
 
 ### 8. Main Class
+
+![image](ss8/main.png)
+
 Tujuan: 
 
 - Merupakan kelas utama yang digunakan untuk menjalankan aplikasi, membuat objek-objek yang diperlukan, dan menampilkan output sesuai dengan format yang diminta.
@@ -146,6 +151,7 @@ Proses:
 - Membuat tiga objek pembayaran (Cash, Check, dan Credit) untuk mewakili pembayaran yang dilakukan oleh pelanggan.
 
 - Menampilkan informasi yang diinginkan sesuai format yang diminta, seperti nama pelanggan, item yang dipesan, tanggal pesanan, status pesanan, dan detail pembayaran.
-Output
 
-- Output yang dihasilkan oleh aplikasi menunjukkan informasi pelanggan, pesanan, dan pembayaran dalam format yang jelas dan sesuai dengan yang diminta:
+
+### Output yang dihasilkan 
+
